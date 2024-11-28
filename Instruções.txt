@@ -1,0 +1,3 @@
+Nas paginas de usuario, fornecedores e produtos sempre que recarregar elas vai pedir o login, 
+mas nas de carrinho e pagamento ele puxa os dados do usuario q fez o login,
+então para alterar tem q fazer o login de novo 
