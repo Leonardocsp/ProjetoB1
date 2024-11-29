@@ -19,12 +19,10 @@ Instale as dependências
 
 Abra dois terminais:
 No terminal 1, vá para a raiz do projeto:
-bash
-Copiar código
+
 npm install
 No terminal 2, navegue até a pasta frontend:
-bash
-Copiar código
+
 cd frontend
 npm install
 Execute o projeto
