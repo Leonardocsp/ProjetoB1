@@ -38,7 +38,10 @@ npm start
 Acesse a aplicação
 
 O backend será iniciado em: http://localhost:8080
+
 O frontend estará disponível em: http://localhost:3000
+
+Leia o instrucoes.txt para melhor entendimento da aplicação 
 
 backend/: Código relacionado ao servidor e lógica do lado do servidor.
 
