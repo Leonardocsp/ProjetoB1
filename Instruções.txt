@@ -1,3 +1,2 @@
-Nas paginas de usuários, fornecedores e produtos sempre que recarregar elas o programa vai pedir o login, 
-já nas de carrinho e pagamento ele puxa os dados do último usuario autenticado,
-então para alterar necessário fazer o login novamente 
+Nas páginas de Usuários, Fornecedores e Produtos, ao recarregar, o programa solicita que o login seja feito novamente.
+Por outro lado, nas páginas de Carrinho e Pagamento, o sistema utiliza os dados do último usuário autenticado. Para alterar o usuário nessas páginas, é necessário realizar um novo login.
