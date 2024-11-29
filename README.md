@@ -7,7 +7,8 @@ Bem-vindo ao ProjetoB1! Siga as instruções abaixo para configurar e executar o
 Pré-requisitos
 Certifique-se de ter os seguintes itens instalados no seu sistema:
 
-Node.js (recomendado: última versão estável),
+Node.js (recomendado: última versão estável)
+
 Git.
 
 Passos para Rodar o Projeto:
@@ -15,24 +16,31 @@ Passos para Rodar o Projeto:
 Clone o repositório
 
 git clone https://github.com/Leonardocsp/ProjetoB1.git
+
 cd seu-repositorio
 
 Instale as dependências
 
 Abra dois terminais:
+
 No terminal 1, vá para a raiz do projeto:
 
 npm install
+
 No terminal 2, navegue até a pasta frontend:
 
 cd frontend
+
 npm install
+
 Execute o projeto
 
 No terminal 1 (raiz do projeto), inicie o backend:
+
 npm start
 
 No terminal 2 (dentro de frontend), inicie o frontend:
+
 npm start
 
 Acesse a aplicação
