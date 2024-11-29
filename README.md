@@ -37,16 +37,17 @@ Acesse a aplicação
 
 O backend será iniciado em: http://localhost:8080
 O frontend estará disponível em: http://localhost:3000
-📂 Estrutura do Projeto
-ProjetoB1/
-├── backend
-├── frontend/
-└── README.md
+
 backend/: Código relacionado ao servidor e lógica do lado do servidor.
+
 frontend/: Código relacionado à interface do usuário e lógica do lado do cliente.
+
 🛠️ Tecnologias Utilizadas
+
 Node.js para o backend
+
 React para o frontend
+
 npm para gerenciamento de pacotes
 
 📄 Licença
