@@ -14,7 +14,7 @@ Passos para Rodar o Projeto:
 
 Clone o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Leonardocsp/ProjetoB1.git
 cd seu-repositorio
 
 Instale as dependências
