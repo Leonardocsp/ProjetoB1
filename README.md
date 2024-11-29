@@ -5,10 +5,11 @@ Bem-vindo ao ProjetoB1! Siga as instruções abaixo para configurar e executar o
 Pré-requisitos
 Certifique-se de ter os seguintes itens instalados no seu sistema:
 
-Node.js (recomendado: última versão estável)
-Git
+Node.js (recomendado: última versão estável),
+Git.
 
-Passos para Rodar o Projeto
+Passos para Rodar o Projeto:
+
 Clone o repositório
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
