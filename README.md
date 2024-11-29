@@ -51,6 +51,8 @@ O frontend estará disponível em: http://localhost:3000
 
 Leia o instrucoes.txt para melhor entendimento da aplicação 
 
+Caso necessário, crie o schema projetob1 no Banco de Dados, de preferência o MYSQL
+
 backend/: Código relacionado ao servidor e lógica do lado do servidor.
 
 frontend/: Código relacionado à interface do usuário e lógica do lado do cliente.
