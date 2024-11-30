@@ -8,15 +8,12 @@ const db = require('../models'); // Carregando o banco de dados
 // Importar as classes service e controller da user
 const UserService = require('../services/userService');
 const UserController = require('../controllers/userController');
+const { checkAuthentication } = require('../middlewares/authMiddleware');  // Importa o middleware de autenticação
+
 
 // Construir os objetos a partir das classes
 const userService = new UserService(db.User);
 const userController = new UserController(userService);
-
-/* GET users listing. */
-router.get('/', (req, res) => {
-  res.send('Módulo de usuários rodando.');
-});
 
 // Rota de login
 router.post('/login', async (req, res) => {
@@ -29,7 +26,7 @@ router.post('/novouser', async (req, res) => {
 });
 
 // Rota para pegar todos os usuários
-router.get('/allusers', async (req, res) => {
+router.get('/allusers', checkAuthentication, async (req, res) => {
   try {
     const users = await userService.getAllUsers();
     if (Array.isArray(users)) {
@@ -44,7 +41,7 @@ router.get('/allusers', async (req, res) => {
 });
 
 // Rota para retornar um usuário pelo id (ajuste aqui)
-router.get('/getUserById/:id', async (req, res) => { // Alterado para receber o ID na URL
+router.get('/getUserById/:id', checkAuthentication,async (req, res) => { // Alterado para receber o ID na URL
   userController.findUserById(req, res);
 });
 
