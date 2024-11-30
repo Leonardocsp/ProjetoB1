@@ -15,7 +15,7 @@ router.post('/', checkAuthentication, (req, res) => {
 });
 
 // Rota para listar todos os produtos - Pode ser pública ou protegida, dependendo da sua lógica
-router.get('/', (req, res) => {
+router.get('/', checkAuthentication, (req, res) => {
     return produtosController.listProdutos(req, res);
 });
 
